@@ -1,18 +1,17 @@
-# GithubUserLookup
+# Github User Lookup
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.3.
+This application displays users profile on github when you search them using their github names. This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.5.3.
 
-## Development server
+# Getting Started
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-## Code scaffolding
+# Prerequisites
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+You will need a working computer connected to the internet.
+How to install;
+clone or download the application from this repository and run the application.
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
 
 ## Running unit tests
 
@@ -25,3 +24,11 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Authors
+
+Murungi Kirima - designer | programmer | student
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE.md file for details.
