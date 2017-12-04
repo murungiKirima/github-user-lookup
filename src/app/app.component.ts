@@ -9,20 +9,23 @@ import { environment } from '../environments/environment';
 })
 
 export class AppComponent {
+
   constructor(private http: Http){}
 
   userName="";
   githubData:any="";
+  access_token = environment.access_token;
+
+
 
   searchUser(){
-  this.http.get("https://api.github.com/users/" + this.userName + "?access_token="+environment.access_token)
+  this.http.get("https://api.github.com/users/" + this.userName + "?access_token=" + this.access_token)
   .subscribe(
     (response:Response)=>{
       const userInfo=response.json();
       this.githubData=userInfo;
 
       console.log(userInfo);
-      }
-    )
+      })
   }
 }

@@ -1,3 +1,6 @@
+import { API_KEY } from '../../.env';
+
 export const environment = {
-  production: true
+  production: true,
+  access_token: API_KEY
 };
